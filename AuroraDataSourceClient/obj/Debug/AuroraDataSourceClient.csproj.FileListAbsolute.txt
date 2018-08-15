@@ -1,0 +1,9 @@
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\bin\Debug\AuroraDataSourceClient.exe.config
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\bin\Debug\AuroraDataSourceClient.exe
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\bin\Debug\AuroraDataSourceClient.pdb
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\obj\Debug\AuroraDataSourceClient.csprojAssemblyReference.cache
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\obj\Debug\AuroraDataSourceClient.Properties.Resources.resources
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\obj\Debug\AuroraDataSourceClient.csproj.GenerateResource.cache
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\obj\Debug\AuroraDataSourceClient.csproj.CoreCompileInputs.cache
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\obj\Debug\AuroraDataSourceClient.exe
+D:\00_SW_Development\AuroraProject\AuroraDataSourceClient\obj\Debug\AuroraDataSourceClient.pdb
