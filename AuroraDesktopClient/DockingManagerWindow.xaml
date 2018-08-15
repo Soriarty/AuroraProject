@@ -22,7 +22,7 @@
 		<Grid Name="MenuGrid" VerticalAlignment="Stretch" Grid.Row="0">
 			<!-- SkinPicker for changing the skin of window -->
             <local:SkinCombo HorizontalContentAlignment="Stretch"   VerticalContentAlignment="Top"></local:SkinCombo>
-			<!--<syncfusion:SkinPicker Name="skinPicker" Skin="Office2007Blue" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" />-->
+			<syncfusion:SkinPicker Name="skinPicker" Skin="Blend" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" />
 			<!--Menu Area--> 
 			<Menu SnapsToDevicePixels="True" VerticalAlignment="Bottom"
                            HorizontalContentAlignment="Stretch">
@@ -324,16 +324,15 @@
 				<TextBlock >Find Results 0 , Not Found.</TextBlock>
 			</ContentControl>
 			<!-- ErrorList dock window -->
-			<ContentControl Name="ErrorList"
+            <ContentControl Name="ErrorList"
 						   syncfusion:DockingManager.Header="Error List"
 						   syncfusion:DockingManager.SideInDockedMode="Tabbed"
 						   syncfusion:DockingManager.TargetNameInDockedMode="Output" >
-				<syncfusion:DockingManager.Icon>
-					<ImageBrush ImageSource="Images\ErrorList.png" />
-				</syncfusion:DockingManager.Icon>
-			</ContentControl>
-			
-			<!-- FindSymbolResults dock window -->
+                <syncfusion:DockingManager.Icon>
+                    <ImageBrush ImageSource="Images\ErrorList.png" />
+                </syncfusion:DockingManager.Icon>
+            </ContentControl>
+            <!-- FindSymbolResults dock window -->
 			<ContentControl Name="FindSymbolResults"
 						   syncfusion:DockingManager.Header="Find Symbol Results"
 						   syncfusion:DockingManager.SideInDockedMode="Tabbed"
@@ -374,7 +373,7 @@
 			<!-- Toolbox dock window -->
 			<ContentControl Name="Toolbox"
 					  syncfusion:DockingManager.Header="Toolbox" 
-					  syncfusion:DockingManager.State="Dock" 
+					  syncfusion:DockingManager.State="Hidden" 
                             HorizontalContentAlignment="Left"
 					  syncfusion:DockingManager.DesiredWidthInDockedMode="250"
                       Content="{StaticResource ToolboxGroups}" >

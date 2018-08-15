@@ -8,7 +8,7 @@
     <Grid>
 
         <TextBlock Text="Docking Demo"  FontSize="14" FontWeight="SemiBold"  Width="Auto" Height="25" Margin="10,8,0,0" HorizontalAlignment="left" VerticalAlignment="Center"  />
-        <!--<controls:ComboBoxAdv VerticalContentAlignment="Center" SelectedIndex="1" x:Name="combo" SelectionChanged="ComboBoxAdv_SelectionChanged" HorizontalAlignment="Right"  Margin="0,0,8,0"  Width="200" Height="25" DefaultText="Select Theme">
+        <controls:ComboBoxAdv VerticalContentAlignment="Center" SelectedIndex="1" x:Name="combo" SelectionChanged="ComboBoxAdv_SelectionChanged" HorizontalAlignment="Right"  Margin="0,0,8,0"  Width="200" Height="25" DefaultText="Select Theme">
             <controls:ComboBoxItemAdv Content="Blend"></controls:ComboBoxItemAdv>
             <controls:ComboBoxItemAdv Content="Metro"></controls:ComboBoxItemAdv>
             <controls:ComboBoxItemAdv Content="Office2010Black"></controls:ComboBoxItemAdv>
@@ -25,6 +25,6 @@
             <controls:ComboBoxItemAdv Content="VisualStudio2015" />
             <controls:ComboBoxItemAdv Content="Lime"></controls:ComboBoxItemAdv>
             <controls:ComboBoxItemAdv Content="Saffron"></controls:ComboBoxItemAdv>
-        </controls:ComboBoxAdv>-->
+        </controls:ComboBoxAdv>
     </Grid>
 </UserControl>

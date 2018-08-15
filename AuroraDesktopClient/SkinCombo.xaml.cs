@@ -38,8 +38,8 @@ namespace AuroraDesktopClient
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void ComboBoxAdv_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
+        private void ComboBoxAdv_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {           
             ComboBoxItemAdv item;
             WindowCollection windows = Application.Current.Windows;
             if (windows.Count > 0)
